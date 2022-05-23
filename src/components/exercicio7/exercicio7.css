@@ -1,0 +1,23 @@
+.exercico7__form__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+.form__container__input {
+  margin: 10px;
+  width: 18rem;
+  height: 3rem;
+  border-radius: 5px;
+}
+
+.form__container__button {
+  background-color: rgb(174, 25, 25);
+  margin: 10px;
+  width: 18rem;
+  height: 3rem;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

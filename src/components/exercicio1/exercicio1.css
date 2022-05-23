@@ -1,0 +1,9 @@
+.exercicio1__div {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgb(243, 204, 35);
+}

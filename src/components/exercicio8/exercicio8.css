@@ -1,0 +1,8 @@
+.card__div__item {
+  width: 15rem;
+  height: 15rem;
+  margin: 25px auto;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: rgb(162, 97, 223);
+}

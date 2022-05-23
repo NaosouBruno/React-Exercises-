@@ -1,0 +1,7 @@
+.exercicio4__div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
