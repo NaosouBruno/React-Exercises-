@@ -1,6 +1,13 @@
-.exercicio6__list {
+.listItem__container {
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
+}
+.listItem__itens {
+  width: 5rem;
+  height: 3rem;
+  padding: 5px;
+  border: 1px solid rgb(181, 109, 109);
+  background-color: rgb(72, 250, 250);
 }

@@ -1,15 +1,4 @@
 function Card(props) {
-  /*  const tittle = (
-    <div>
-      {itens.map((item) => (
-        <div>
-          <h1 key={item.id}>{item.setup}</h1>
-          <p>{item.punchline}</p>
-        </div>
-      ))}
-    </div>
-  ); */
-
   const content = (
     <div>
       {props.itens.map((item) => (
