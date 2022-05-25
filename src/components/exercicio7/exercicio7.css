@@ -9,6 +9,12 @@
   width: 18rem;
   height: 3rem;
   border-radius: 5px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.form__container__input::placeholder {
+  padding: 10px;
 }
 
 .form__container__button {
@@ -20,4 +26,12 @@
   color: aliceblue;
   font-size: 1.5rem;
   cursor: pointer;
+  box-shadow: 0 5px 8px rgba(81, 97, 240, 0.436);
+}
+
+.form__container__button:active {
+  transform: scale(1.1);
+  color: rgb(0, 2, 3);
+  background: rgba(38, 187, 33, 0.708);
+  box-shadow: 3px 2px 22px 1px rgb(255, 4, 4);
 }

@@ -1,8 +1,19 @@
 .card__div__item {
   width: 15rem;
   height: 15rem;
-  margin: 25px auto;
+  margin: 15px;
   padding: 15px;
-  border-radius: 12px;
-  background-color: rgb(162, 97, 223);
+  border-radius: 15px;
+  background: rgba(230, 240, 216, 0.781);
+  box-shadow: 0 2px 8px rgba(218, 12, 12, 0.26);
+}
+.card__container {
+  width: 50rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  background: rgba(74, 38, 38, 0.849);
+  box-shadow: 0 2px 8px rgba(142, 239, 6, 0.26);
+  flex-direction: row;
+  justify-content: center;
 }

@@ -8,9 +8,14 @@ function Exercicio7() {
     event.preventDefault();
     const name = firstName.current.value;
     const last = lastName.current.value;
-    alert("Hello " + name + " " + last);
-    firstName.current.value = "";
-    lastName.current.value = "";
+
+    if (name.trim().length > 0 && last.trim().length > 0) {
+      alert("Hello " + name + " " + last);
+      firstName.current.value = "";
+      lastName.current.value = "";
+    } else {
+      alert("Please, complet all inputs");
+    }
   };
   return (
     <div>
